@@ -1,0 +1,81 @@
+.attribution {
+  font-size: 11px; text-align: center;
+  color: hsl(228, 45%, 44%); }
+.text-card{
+  position: absolute;
+  float: center;
+  /* text-align:; */
+  padding: 20px;
+  margin-left: 40px;
+}
+.photo-card{
+  float: center;
+  margin-left: 425px;
+}
+div{
+  /* display: inline; */
+}
+.surround{
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  background-color: hsl(244, 38%, 16%) ;
+  /* background-position: center; */
+  width: 874px;
+  height: 325px;
+  border-radius: 5px;
+}
+.photo{
+  height:325px;
+  width: 450px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+h3{
+  color: white;
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+span{
+  color: hsl(277, 64%, 61%);
+}
+p{
+  color: white;
+  font-size: 11px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+
+}
+body{
+  background-color: hsl(233, 47%, 7%);
+  /* text-align: center; */
+}
+.photo-overlay{
+  height:325px;
+  width: 450px;
+  border-radius: 5px;
+  opacity: 45%;
+  background-color: hsl(277, 64%, 61%);
+  left: 425px;
+  position: absolute;
+  z-index: 2;
+
+}
+th{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding:30px 30px 5px 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+
+  }
+td{
+  font-size: 10px;
+  font-weight: 400;
+  color: white;
+  padding:10px 30px 5px 10px;
+  font-family: 'Lexend Deca', sans-serif;
+}
